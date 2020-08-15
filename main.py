@@ -17,6 +17,6 @@ def run(json_path):
 if __name__ == "__main__":
     desc = 'Youtube Timelapse Dataset collector.'
     parser = argparse.ArgumentParser(description=desc)
-    parser.add_argument('data', type='str', default='ytld25.json')
+    parser.add_argument('data', default='ytld25.json')
     args = parser.parse_args()
     run(args.data)
