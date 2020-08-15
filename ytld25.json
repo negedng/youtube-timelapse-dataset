@@ -9,7 +9,7 @@
          "every_x_frame":1,
          "dest_path":"ytld25/uetliberg",
          "img_name":"uetliberg",
-         "crop":"None",
+         "crop":null,
          "name":"uetliberg"
       },
       {
@@ -20,7 +20,7 @@
          "every_x_frame":1,
          "dest_path":"ytld25/farmday",
          "img_name":"farmday",
-         "crop":"None",
+         "crop":null,
          "name":"farmday"
       },
       {
@@ -31,7 +31,7 @@
          "every_x_frame":1,
          "dest_path":"ytld25/parkinglot",
          "img_name":"parkinglot",
-         "crop":"None",
+         "crop":null,
          "name":"parkinglot"
       },
       {
@@ -58,7 +58,7 @@
          "every_x_frame":1,
          "dest_path":"ytld25/oakyear",
          "img_name":"oakyear",
-         "crop":"None",
+         "crop":null,
          "name":"oakyear"
       },
       {
@@ -133,7 +133,7 @@
          "every_x_frame":1,
          "dest_path":"ytld25/trafficlights",
          "img_name":"trafficlights",
-         "crop":"None",
+         "crop":null,
          "name":"trafficlights"
       },
       {
@@ -208,7 +208,7 @@
          "every_x_frame":1,
          "dest_path":"ytld25/meltingyard",
          "img_name":"meltingyard",
-         "crop":"None",
+         "crop":null,
          "name":"meltingyard"
       },
       {
@@ -219,7 +219,7 @@
          "every_x_frame":1,
          "dest_path":"ytld25/meltingstreet",
          "img_name":"meltingstreet",
-         "crop":"None",
+         "crop":null,
          "name":"meltingstreet"
       },
       {
@@ -262,7 +262,7 @@
          "every_x_frame":1,
          "dest_path":"ytld25/meteora",
          "img_name":"meteora",
-         "crop":"None",
+         "crop":null,
          "name":"meteora"
       },
       {
