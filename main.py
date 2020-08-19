@@ -8,10 +8,17 @@ def run(json_path):
         data = json.load(json_file)
 
     print('Download ', data['name'])
-
-    for video_info in data['data']:
-        fe = FrameExtractor(video_info)
-        fe.extract_frames()
+    need_download = data['data']
+    
+    while(len(need_download)>0):
+        video_info = need_download.pop()
+        try:
+            fe = FrameExtractor(video_info)
+            fe.extract_frames()
+        except:
+            print("Load unsuccessful, trying later")
+            need_download.append(video_info)
+        
 
 
 if __name__ == "__main__":
